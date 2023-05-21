@@ -1,13 +1,21 @@
+html {
+    background-color: white;
+}
 nav {
     background-color: darkslategray;
+    padding: 10px 0px 10px 0px;
 }
 body {
     background-color: blanchedalmond;
+    max-width: 1000px;
+    margin: auto;
+    border: 3px solid darkslategray;
+    height: 800px;
 }
 a {
     color: white;
     margin-left: 15px;
-    text-decoration: none;
+    text-decoration: none;  
 }
 a:hover {
     color:blanchedalmond;
