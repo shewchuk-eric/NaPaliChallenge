@@ -177,6 +177,9 @@ footer {
     justify-content: space-around;
     align-items: center;
 } 
+.faq {
+    margin-top: 100px;
+}
 footer p {
     font-size: 1.2em;
 }
