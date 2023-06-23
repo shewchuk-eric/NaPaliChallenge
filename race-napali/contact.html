@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Race The Napali Challenge</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <div id="content">
@@ -21,7 +21,7 @@
 
         <div id="hero">
             <div id="hero-box">
-                <img src="images/homeHero.jpg" id="hero-img" alt="image of outrigger canoes racing">
+                <img src="images/courseHero.jpg" id="hero-img" alt="image of outrigger canoes racing">
             </div>
             <section id="hero-msg">
                 <h1 class="home-title">The Napali Challenge</h1>
@@ -32,12 +32,21 @@
             </section>
         </div> <!-- end 'hero' div -->
 
-        <main>
-            <p>
-            The Hawaiian island of Kauai is known as 'The Garden Island'.  Home to the wettest place on earth, Kauai boasts lush tropical vegetation and dozens of waterfalls.  It's also home to the Napali coast - some of the most beautiful coastline in the world.  The only way to see the Napali coast is by boat or helicopter and tens of thousands of visitors per year book sightseeing tours to do just that.  Each year, that incredible beauty becomes the course for one of the world's premier outrigger canoe races.  The Na Pali Challenge is a world-class endurance race that brings top paddling athletes to Kauai from far-flung locations.  It is an opportunity for wahine and kane to come together and race 37 miles down the stunning Na Pali Coast.
-            </p>
-            <img src="images/cluster.jpg" alt="image of canoes lined up at start of race">
-        </main>
+        <form action="/my-handling-form-page" method="post">
+            <fieldset>
+                 <legend>Contact info</legend>
+                     <label for="name">Name:</label>
+                     <input type="text" id="name" name="user_name">
+       
+                     <label for="mail">E-mail:</label>
+                     <input type="email" id="mail" name="user_email">
+                   
+                     <label for="msg">Message:</label>
+                     <textarea id="msg" name="user_message"></textarea>    
+       
+            </fieldset>
+            <button type="submit">Send your message</button>
+       </form>       
 
         <footer>
             <p>The Napali Challenge &copy; 2023 - Eric Shewchuk</p>
@@ -49,6 +58,7 @@
                 <a href="https://www.instagram.com/koapaddler/" target="_new"><img src="images/instagram.png" alt="instagram icon"></a>
             </div> <!-- end 'social' -->
         </footer>
-    </div> <!-- end content -->
+    </div> <!-- end 'content' --> 
+    
 </body>
 </html>
