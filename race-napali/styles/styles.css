@@ -25,7 +25,12 @@
     --nav-hover-background-color: #7946CF;
   }
 
+html {
+    background-color: rgb(49, 48, 48);
+}
+
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     width: 1000px;
     margin: 0 auto;
@@ -46,14 +51,14 @@ nav {
 }
 nav a {
     text-align: center;
-    color: #B2843A;
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 27px;
     font-size: 1.6em;
 }
 
 a:hover {
-    color: white;
+    color: var(--nav-hover-link-color);
 }
 
 #header-logo {
@@ -66,8 +71,10 @@ a:hover {
     text-align: center;
 }
 
-#hero h1 {
-    font-size: 2em;
+h1 {
+    font-size: 4em;
+    font-family: "Kanit";
+    margin-bottom: 0;
 }
 
 .button-box {
@@ -80,21 +87,34 @@ a:hover {
 }
 
 a {
-    color: #B2843A;
+    color: white;
     text-decoration: none;
     font-size: 1.2em;
 }
 
-main {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+main p {
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 20px;
+    width: 70%;
+    margin: 80px 20px 20px 130px;
+    font-size: 1.2em;
 }
 #home-img {
-    grid-column: 2/4;
+    width: 40%;
+    position: relative;
+    float: left;
+    margin: -50px 30px 2px 80px;
+    border: 2px solid var(--accent2-color);
+    box-shadow: 5px 5px 10px #27293B;
 }
 
-main p {
-    grid-column: 4/6;
-}
-
-
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 25px 50px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
