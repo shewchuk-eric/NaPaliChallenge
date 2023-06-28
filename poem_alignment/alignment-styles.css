@@ -1,0 +1,68 @@
+html {
+    background-color: darkslategray;
+}
+
+body {
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+    background-color: black;
+    border: 3px solid rgb(48, 46, 46);
+}
+
+h1 {
+    color: slategray;
+}
+
+section {
+    width: 50%;
+    color: aliceblue;
+    padding: 0 10px 0 10px;
+}
+section:nth-of-type(1) {
+    width: 35%;
+}
+
+#one {
+    margin: 0 auto 0 0;
+}
+
+#two {
+    margin: 0 auto 0 auto;
+}
+
+#three {
+    margin: 0 0 0 auto;
+}
+
+#four {
+    margin: 0 0 0 38%;
+}
+
+p:nth-of-type(1) {
+    text-align: left;
+}
+
+p:nth-of-type(2) {
+    text-align: center;
+}
+
+p:nth-of-type(3) {
+    text-align: right;
+}
+
+#four p:nth-of-type(1) {
+    text-align: right;
+}
+
+#four p:nth-of-type(2) {
+    text-align: center;
+}
+
+#four p:nth-of-type(3) {
+    text-align: left;
+}
+
+#four p:nth-of-type(4) {
+    text-align: left;
+}

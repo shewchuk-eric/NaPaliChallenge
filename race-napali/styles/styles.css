@@ -1,1 +1,100 @@
+/******************************************************
+*  Author: Eric Shewchuk                              *
+*  Purpose: Personal Website | Assignment for WDD130  *
+*******************************************************/
+
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&family=Permanent+Marker&display=swap');
+
+:root {
+    --primary-color: #56328F;
+    --secondary-color: #315EAD;
+    --accent1-color: #729FED;
+    --accent2-color: #CFB544;
+  
+    --heading-font: "Kanit";
+    --paragraph-font: Arial, Helvetica, sans-serif;
+  
+    --headline-color-on-white: #56328F;
+    --headline-color-on-color: #CFB544;
+    --paragraph-color-on-white: black;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #729FED  ;
+    --nav-link-color: white;
+    --nav-background-color: #7946CF;
+    --nav-hover-link-color: #CFB544;
+    --nav-hover-background-color: #7946CF;
+  }
+
+body {
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    border: 3px solid var(--accent2-color);
+}
+
+header {
+    padding: 10px;
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #B2843A;
+    text-decoration: none;
+    padding: 27px;
+    font-size: 1.6em;
+}
+
+a:hover {
+    color: white;
+}
+
+#header-logo {
+    margin: 8px 0 0 8px;
+}
+
+#hero {
+    margin: 0 0 0 0;
+    color: var(--headline-color-on-white);
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2em;
+}
+
+.button-box {
+    width: 150px;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    border: 2px solid var(--accent2-color);
+    border-radius: 9px;
+    margin: auto;
+}
+
+a {
+    color: #B2843A;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+#home-img {
+    grid-column: 2/4;
+}
+
+main p {
+    grid-column: 4/6;
+}
+
+
