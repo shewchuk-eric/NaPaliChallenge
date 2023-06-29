@@ -23,7 +23,11 @@
     --nav-background-color: #7946CF;
     --nav-hover-link-color: #CFB544;
     --nav-hover-background-color: #7946CF;
-  }
+}
+
+/******************
+*  Global Styles  *
+******************/
 
 html {
     background-color: rgb(49, 48, 48);
@@ -100,14 +104,6 @@ main p {
     margin: 80px 20px 20px 130px;
     font-size: 1.2em;
 }
-#home-img {
-    width: 40%;
-    position: relative;
-    float: left;
-    margin: -50px 30px 2px 80px;
-    border: 2px solid var(--accent2-color);
-    box-shadow: 5px 5px 10px #27293B;
-}
 
 footer {
     background-color: var(--primary-color);
@@ -118,3 +114,28 @@ footer {
     justify-content: space-around;
     align-items: center;
 } 
+
+/*********************
+*  Home Page Styles  *
+*********************/
+
+#home-img {
+    width: 40%;
+    position: relative;
+    float: left;
+    margin: -50px 30px 2px 80px;
+    border: 2px solid var(--accent2-color);
+    box-shadow: 5px 5px 10px #27293B;
+}
+
+/**********************
+*  Crews Page Styles  *
+**********************/
+
+
+
+/***********************
+*  Course Page Styles  *
+***********************/
+
+
