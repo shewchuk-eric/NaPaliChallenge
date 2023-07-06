@@ -241,6 +241,43 @@ input:checked + section.box .box-title:before {
 }
 
 
+/***********************
+*  Course Page Styles  *
+***********************/
+
+#course-main img {
+    width: 45%;
+    box-shadow: 5px 5px 10px #27293B;
+}
+
+
+#course-main p {
+    background-color: white;
+    color: black;
+    width: 80%;
+}
+
+#top-half, #bottom-half {
+    width: 95%;
+    margin: 0 auto 150px auto;
+}
+
+#top-half img {
+    float: left;
+    margin: 0 20px 25px 35px;
+}
+
+#bottom-half img {
+    float: right;
+    margin: 0 45px 0 20px;
+} 
+
+#bottom-half p {
+    width: 90%;
+    margin-left: auto;
+}
+
+
 /************************
 *  Contact Page Styles  *
 ************************/
