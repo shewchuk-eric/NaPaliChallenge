@@ -1,0 +1,22 @@
+/********************************
+* Author: Eric Shewchuk         *
+* Copyright: Banyan Media, 2023 *
+********************************/
+
+// sass --watch css/base.scss:css/styles.css
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&display=swap');
+
+// create variables
+$main: #000;
+
+// create mixins
+@mixin border {
+    border: 1px solid black;
+}
+
+@import 'atoms';
+@import 'molecules';
+@import 'organisms';
+@import 'template';

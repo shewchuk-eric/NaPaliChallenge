@@ -1,23 +1,7 @@
-/* Author: Eric Shewchuk */
-
-@charset "utf-8";
-@import url("../webfonts/Kanit/");
-
 /********************************
-*            Phone              *
+* Author: Eric Shewchuk         *
+* Copyright: Banyan Media, 2023 *
 ********************************/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&display=swap");
 
-
-
-/********************************
-*            Tablet             *
-********************************/
-
-
-
-/***********************************
-*             Desktop              *
-***********************************/
-
-
-
+/*# sourceMappingURL=styles.css.map */
