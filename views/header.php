@@ -12,15 +12,14 @@
     <meta property="og:type" content="article">
     <meta property="og:description" content="The Na Pali Challenge spans 37 miles of breathtaking scenery between Hanalei and Kekaha.">
     <meta property="og:image" content="images/canoe-racing.webp">
-    <meta property="og:url" content="https://shewchuk-eric.github.io/wdd230/">
-    <meta property="og:site_name" content="The Clever Primate">
+    <meta property="og:url" content="https://<!-- get URL for 'Home' page and put it here -->">
+    <meta property="og:site_name" content="The Na Pali Challenge Outrigger Race">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:alt" content="image of a thoughtful looking monkey">
+    <meta name="twitter:image:alt" content="image of outrigger canoes racing in The Na Pali Challenge">
 </head>
 <body>
 <header>
-    <img src="http://localhost:3000/phpmotors/images/logo.png" alt="image of PHP Motors logo">
-    <span id="account"><a href='/phpmotors/accounts/index.php?action=login' title='Returning User Login'>My Account</a></span>
+    <!-- place HERO image or slideshow here -->
     <?php include_once 'views/navigation.php'; ?>
 </header>
-    <main>
+    <body>

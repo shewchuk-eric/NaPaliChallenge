@@ -1,6 +1,7 @@
-<footer>
+    </main>
+        <footer>
+            <span>&copy; <a href="https://thebanyanteam.com/">Banyan Media</a></span>
 
-
-</footer>
-
+        </footer>
+    </body>
 </html>

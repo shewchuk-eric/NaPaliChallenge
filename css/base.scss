@@ -9,7 +9,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&display=swap');
 
 // create variables
-$main: #000;
+$text: #292929;
+$main: #A088EB;
+$accent: #898596;
+$light: #88A4EB;
+$green: #C4EB88;
+$yellow: #EBE288;
 
 // create mixins
 @mixin border {
