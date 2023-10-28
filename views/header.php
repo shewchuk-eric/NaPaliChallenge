@@ -6,12 +6,12 @@
     <meta name="author" content="Eric Shewchuk">
     <meta name="description" content="The Na Pali Challenge is a world-class outrigger canoe race that spans 37 miles of breathtakingly beautiful coastline.">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <title><?php $title; ?></title>
+    <title><?php echo $pageTitle; ?></title>
     <link rel="stylesheet" href="css/styles.css">
     <meta property="og:title" content="The World's Most Beautiful Outrigger Race">
     <meta property="og:type" content="article">
     <meta property="og:description" content="The Na Pali Challenge spans 37 miles of breathtaking scenery between Hanalei and Kekaha.">
-    <meta property="og:image" content="images/canoe-racing.webp">
+    <meta property="og:image" content="images/NaPali_640.webp">
     <meta property="og:url" content="https://<!-- get URL for 'Home' page and put it here -->">
     <meta property="og:site_name" content="The Na Pali Challenge Outrigger Race">
     <meta name="twitter:card" content="summary_large_image">
@@ -19,7 +19,7 @@
 </head>
 <body>
 <header>
-    <!-- place HERO image or slideshow here -->
-    <?php include_once 'views/navigation.php'; ?>
+<?php include_once 'views/navigation.php'; ?>
+<?php echo $hero; ?> <!-- uses 'selectHero' function to get different hero photo for each page -->
 </header>
     <body>
