@@ -17,6 +17,19 @@ h2 {
 #mainContent a {
     color: $main;
 }
+.alert {
+    font-size: larger;
+    font-weight: bold;
+    color: $alert;
+}
+em {
+    font-size: larger;
+    font-weight: bold;
+    color: $main;
+}
+blockquote {
+    margin: 0 0 1.3rem 12rem;
+}
 /*************************************** NAVIGATION *******************************************/ 
 #logo {
     position: relative;
@@ -91,6 +104,9 @@ h2 {
     }
     #homer {
         width: 60%;
+    }
+    body {
+        font-size: larger;
     }
 }
 @media (min-width: 900px) {

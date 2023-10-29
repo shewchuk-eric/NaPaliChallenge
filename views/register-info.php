@@ -10,7 +10,6 @@
 
 <h2>Section 1 – Registration</h2>
     <p>Registration for the 2024 Na Pali Challenge opens on July 1st. Please read through all registration requirements before starting your registration as the process has changed from previous years.</p>
-        <p>
         <ul>
             <li>Paddler Information – Names, DOBs, and HCRA ID numbers for all 12 crew members.</li>
                 <ul>
@@ -31,7 +30,6 @@
                     <li>Any changes to escort boats/escort information must be made no later than 24 hours prior to the start of the race.</li>
                 </ul>
             </ul>
-        </p>
         <p>Online Registration closes Saturday 8/3 at 5PM<br>All fees due by Friday 8/9 at 5PM</p>
         <p>In-person registration will be at <a href="https://www.google.com/maps/place/Napali+Brewing+Co./@22.0520735,-159.336377,17z/data=!3m1!4b1!4m6!3m5!1s0x7c06e1d3843769a3:0x12fe340ef236f755!8m2!3d22.0520735!4d-159.3338021!16s%2Fg%2F11kpk64v7w?entry=ttu" target="_blank">Na Pali Brewing Company</a> in Wailua from 10am to 2pm on Friday the 9th.  Signs or a KOA representative will direct you to the meeting area inside the brewery.</p>
         <p>A MANDATORY coaches meeting will be held on Friday the 9th at 5pm at the <a href="https://www.google.com/maps/place/Napali+Brewing+Co./@22.0520735,-159.336377,17z/data=!3m1!4b1!4m6!3m5!1s0x7c06e1d3843769a3:0x12fe340ef236f755!8m2!3d22.0520735!4d-159.3338021!16s%2Fg%2F11kpk64v7w?entry=ttu" target="_blank">Na Pali Brewing Company</a> in Wailua.  The meeting will be held in the same room as the registration/check-in.</p>

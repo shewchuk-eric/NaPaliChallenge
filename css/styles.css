@@ -28,6 +28,22 @@ h2 {
   color: #A088EB;
 }
 
+.alert {
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(160, 60, 60);
+}
+
+em {
+  font-size: larger;
+  font-weight: bold;
+  color: #A088EB;
+}
+
+blockquote {
+  margin: 0 0 1.3rem 12rem;
+}
+
 /*************************************** NAVIGATION *******************************************/
 #logo {
   position: relative;
@@ -112,6 +128,9 @@ h2 {
   #homer {
     width: 60%;
   }
+  body {
+    font-size: larger;
+  }
 }
 @media (min-width: 900px) {
   .navigation li a {
@@ -174,7 +193,8 @@ input[type=submit] {
 }
 #mainContent ul {
   max-width: 70%;
-  margin-left: 10%;
+  margin: 0 0 0 10%;
+  padding-top: 0;
 }
 #mainContent ul li {
   margin-left: 0;
