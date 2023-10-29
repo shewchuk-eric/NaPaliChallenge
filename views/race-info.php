@@ -36,44 +36,27 @@
     <p><em>SHUTTLE:</em><br><span class="alert">IF YOUR CREW NEEDS SHUTTLE SERVICES, YOU MUST INDICATE SO ON YOUR REGISTRATION FORM. WE WILL NEED TO KNOW WHERE YOU ARE STAYING, SIZE OF YOUR PARTY, AND IF YOU NEED A ROUND-TRIP OR ONE-WAY RIDE. SHUTTLE STOPS, ROUTES, AND TIMES ARE DETERMINED BASED ON NUMBER OF PEOPLE AND LOCATIONS. THIS INFORMATION WILL BE UPDATED PERIODICALLY AS WE MOVE FORWARD – YOU CAN CHECK FOR UPDATES ON KOAPADDLER.ORG</span></p>
 
     <h2>Race Logistics</h2>
-CANOE & ESCORT NUMBERS: 
-All canoes must have a race number placed on the front right and left of the canoe. Escort boats must display the same race number in a visible area above the water line. Decals will be assigned at registration on Friday. Do not attempt to place numbers on the vessel when it is wet. 
-
-*Escort boats must check in over the radio on the event operations channel 74 between 6:45a-7:15a the morning of the race.
-
-CANOE RENTAL: 
-If you need assistance in renting a canoe, you must indicate so on your registration. All rental fees are payable directly to the club you are renting from. While clubs will do their best to accommodate you, specific canoe types are not guaranteed. If you are renting a canoe – Trailering fees are included in your rental price. Available canoes will be first-come so plan ahead!
-
-COURSE INFORMATION:
-View Course information/map here: Na Pali Challenge
-
-STARTS:  (CREWS TO START AS NOTED BELOW)
-RACE START WILL BE MARKED BY OFFICIAL BOATS.
-7:30 NAOPIO AND 60+ START (KANE STARTS)
-8:00AM OPEN, MASTERS 40-49, SENIOR MASTERS 50-54, GOLDEN MASTERS 55-59 (WAHINE STARTS)
-8:30AM NA OPIO UNLIMITED, UNLIMITED OPEN, 40 AND 50+ UNLIMITED (KANE STARTS)
-CHANGES:
-Officials will make an announcement over the radio every 30 minutes indicating that the water change window has opened. This window will close after 5 minutes by way of radio announcement. Any crews making water changes outside of this time will be assessed a 10 minute time penalty. 
-
-Approximately one (1) mile before the finish, a buoy will mark the last change area. Any crews making water changes after this marker (regardless of the change window being open) will be assessed a 10 minutes time penalty. 
-
-FINISH:
-The Race Finish is outside of Kikiaola Small Boat Harbor. All canoes must pass between the official timing boat and the course finish marker. Canoes that do not pass between the finish marker and the timing boat will not receive a time and will be listed as “DNF” (Did Not Finish).
-
-Section 4 – Time Penalties/Escort Rules
-Any water changes outside of the change window (as announced by officials every 30 minutes) will result in a 10-minute time penalty. 
-Any water changes after the “Last Change” marker at the finish will result in a 10-minute time penalty.
-All canoes will pass between the buoy and official timing boat at the finish.  Canoes that finish outside of these markers will not receive a time and will be marked as DNF.
-Escort boats will stay with their paddlers at all times unless otherwise instructed by Officials. 
-Every crew must have an escort boat to participate. 
-Your escort boat must have mounted VHF radios. (HANDHELDS are okay as backup)
-Escort boats are required to check in with race officials between 6:45a-7:15a on event operations channel 74
-Escort boats will at no time block or cause wake to a canoe.
-2023 RACE RESULTS
-
-2022 RACE RESULTS
-
-*Any of this information is subject to change without notice. The latest information will be available on koapaddler.org. Contact napalichallenge@gmail.com with any questions. Our registration team will get back to you as soon as possible.
+    <p><em>CANOE & ESCORT NUMBERS:</em><br>All canoes must have a race number placed on the front right and left of the canoe. Escort boats must display the same race number in a visible area above the water line. Decals will be assigned at registration on Friday. Do not attempt to place numbers on the vessel when it is wet.</p>
+    <p>*Escort boats must check in over the radio on the event operations channel 74 between 6:45a-7:15a the morning of the race.</p>
+    <p><em>CANOE RENTAL:</em><br>If you need assistance in renting a canoe, you must indicate so on your registration. All rental fees are payable directly to the club you are renting from. While clubs will do their best to accommodate you, specific canoe types are not guaranteed. If you are renting a canoe – Trailering fees are included in your rental price. <span class="alert">Available canoes will be first-come so plan ahead!</span></p>
+    <p><em>COURSE INFORMATION:</em><br>View Course information/map here: <a href="https://www.google.com/maps/d/u/0/edit?mid=11BzQYfQRY5wPQWi0t7yCq8E-bAdL81tf&usp=sharing" target="_blank">Na Pali Challenge</a></p>
+    <p><em>STARTS: (CREWS TO START AS NOTED BELOW)</em><br>RACE START WILL BE MARKED BY OFFICIAL BOATS.<br>7:30 NA OPIO AND 60+ START (KANE STARTS)<br>8:00AM OPEN, MASTERS 40-49, SENIOR MASTERS 50-54, GOLDEN MASTERS 55-59 (WAHINE STARTS)<br>8:30AM NA OPIO UNLIMITED, UNLIMITED OPEN, 40 AND 50+ UNLIMITED (KANE STARTS)</p>
+    <p><em>CHANGES:</em><br>Officials will make an announcement over the radio every 30 minutes indicating that the water change window has opened. This window will close after 5 minutes by way of radio announcement. Any crews making water changes outside of this time will be assessed a 10 minute time penalty.<br>Approximately one (1) mile before the finish, a buoy will mark the last change area. Any crews making water changes after this marker (regardless of the change window being open) will be assessed a 10 minutes time penalty.</p>
+    <p><em>FINISH:</em><br>The Race Finish is outside of Kikiaola Small Boat Harbor. All canoes must pass between the official timing boat and the course finish marker. Canoes that do not pass between the finish marker and the timing boat will not receive a time and will be listed as “DNF” (Did Not Finish).</p>
+    <h2>Time Penalties/Escort Rules</h2>
+    <ol>
+        <li>Any water changes outside of the change window (as announced by officials every 30 minutes) will result in a 10-minute time penalty.</li>
+        <li>Any water changes after the “Last Change” marker at the finish will result in a 10-minute time penalty.</li>
+        <li>All canoes will pass between the buoy and official timing boat at the finish.  Canoes that finish outside of these markers will not receive a time and will be marked as DNF.</li>
+        <li>Escort boats will stay with their paddlers at all times unless otherwise instructed by Officials.</li>
+        <li>Every crew must have an escort boat to participate.</li>
+        <li>Your escort boat must have mounted VHF radios. (HANDHELDS are okay as backup)</li>
+        <li>Escort boats are required to check in with race officials between 6:45a-7:15a on event operations channel 74</li>
+        <li>Escort boats will at no time block or cause wake to a canoe.</li>
+    </ol>
+    <h3><a href="https://www.webscorer.com/racedetails?raceid=324341" target="_blank">2023 RACE RESULTS</a></h3>
+    <h3><a href="https://www.webscorer.com/race?raceid=286316" target="_blank">2022 RACE RESULTS</a></h3>
+    <p>*Any of this information is subject to change without notice. The latest information will be available on koapaddler.org. Contact napalichallenge@gmail.com with any questions. Our registration team will get back to you as soon as possible.</p>
 
 
 <section id='mainContent'>

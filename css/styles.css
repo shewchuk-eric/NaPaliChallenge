@@ -18,6 +18,10 @@ h2 {
   margin-left: 2rem;
 }
 
+h3 {
+  margin-left: 9rem;
+}
+
 #mainContent p {
   max-width: 80%;
   margin: 0 auto 0 auto;
@@ -191,12 +195,12 @@ input[type=submit] {
 #mainContent {
   padding: 0 2rem 0 2rem;
 }
-#mainContent ul {
+#mainContent ul, #mainContent ol {
   max-width: 70%;
   margin: 0 0 0 10%;
   padding-top: 0;
 }
-#mainContent ul li {
+#mainContent ul li, #mainContent ol li {
   margin-left: 0;
 }
 
