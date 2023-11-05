@@ -22,6 +22,10 @@ h3 {
   margin-left: 9rem;
 }
 
+header {
+  background-color: #493487;
+}
+
 #mainContent p {
   max-width: 80%;
   margin: 0 auto 0 auto;
@@ -48,6 +52,10 @@ blockquote {
   margin: 0 0 1.3rem 12rem;
 }
 
+#homer {
+  padding: 3rem;
+}
+
 /*************************************** NAVIGATION *******************************************/
 #logo {
   position: relative;
@@ -63,7 +71,7 @@ blockquote {
   font-size: 1.5rem;
   border: 1px solid black;
   padding: 3px 7px 6px;
-  background-color: transparent;
+  background-color: white;
 }
 
 #menu::before {
@@ -90,14 +98,15 @@ blockquote {
   padding: 0.7rem;
   text-align: center;
   border: 1px solid black;
-  border-radius: 1rem;
-  color: #292929;
+  border-radius: 0.8rem;
+  background-color: white;
+  color: #493487;
   margin-bottom: 0.5rem;
   transition: 0.5s;
 }
 
 .navigation li a:hover {
-  background-color: #88A4EB;
+  color: #88A4EB;
 }
 
 /* when the button is clicked - the open class is toggled (added/removed) and accounted for here */
@@ -114,11 +123,15 @@ blockquote {
   #menu {
     display: none; /* hide hamburger button */
   }
+  .navigation ul {
+    z-index: 1;
+  }
   .navigation li {
     display: block;
   }
   .navigation li a {
     color: white;
+    background-color: #493487;
     font-size: 0.85rem;
     border: none;
   }
@@ -191,10 +204,6 @@ input[type=submit] {
   max-width: 20rem;
 }
 
-#homer {
-  padding: 3rem;
-}
-
 /*************************************** BASICS *******************************************/
 #mainContent {
   padding: 0 2rem 0 2rem;
@@ -211,7 +220,7 @@ input[type=submit] {
 /*************************************** NAVIGATION *******************************************/
 nav {
   width: 100%;
-  height: 6.5rem;
+  height: minmax(6.5rem, auto);
 }
 
 .navigation {
@@ -235,6 +244,7 @@ footer {
   nav {
     display: block;
     background-color: #493487;
+    height: 6.5rem;
   }
   .navigation {
     flex-direction: row;
@@ -252,10 +262,6 @@ footer {
 #lightbox img {
   box-shadow: 4px 4px 4px #878199;
   margin-top: 2rem;
-}
-
-#hero {
-  z-index: 0;
 }
 
 body {

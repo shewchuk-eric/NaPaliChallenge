@@ -20,6 +20,7 @@
 <body>
 <header>
 <?php include_once 'views/navigation.php'; ?>
-<?php echo $hero; ?> <!-- uses 'selectHero' function to get different hero photo for each page -->
+
 </header>
     <body>
+    <?php echo $hero; ?> <!-- uses 'selectHero' function to get different hero photo for each page -->

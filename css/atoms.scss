@@ -12,6 +12,9 @@ h2 {
 h3 {
     margin-left: 9rem;
 }
+header {
+    background-color: $main;
+}
 #mainContent p {
     max-width: 80%;
     margin: 0 auto 0 auto;
@@ -33,6 +36,9 @@ em {
 blockquote {
     margin: 0 0 1.3rem 12rem;
 }
+#homer {
+    padding: 3rem;
+}
 /*************************************** NAVIGATION *******************************************/ 
 #logo {
     position: relative;
@@ -47,7 +53,7 @@ blockquote {
 	font-size: 1.5rem;
 	border: $border;
 	padding: 3px 7px 6px;
-	background-color: transparent;
+	background-color: white;
 }
 #menu::before {
 	content: "☰";
@@ -69,13 +75,14 @@ blockquote {
 	padding: .7rem;
 	text-align: center;
     border: $border;
-    border-radius: 1rem;
-	color: $text;
+    border-radius: .8rem;
+    background-color: white;
+	color: $main;
     margin-bottom: .5rem;
     transition: .5s;
 }
 .navigation li a:hover {
-	background-color: $light;
+	color: $light;
 }
 /* when the button is clicked - the open class is toggled (added/removed) and accounted for here */
 .open li {
@@ -89,11 +96,15 @@ blockquote {
     #menu {
         display: none; /* hide hamburger button */
     }
+    .navigation ul {
+        z-index: 1;
+    }
     .navigation li {
         display: block;
     } 
     .navigation li a {
         color: white;
+        background-color: $main;
         font-size: .85rem;
         border: none;
     }
@@ -159,7 +170,4 @@ input[type=submit] {
     color: $text;
     margin-top: 1rem;
     max-width: 20rem;
-}
-#homer {
-    padding: 3rem;
 }
