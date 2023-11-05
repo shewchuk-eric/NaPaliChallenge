@@ -8,24 +8,21 @@
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&display=swap');
-@import 'normalize';
 
 @import 'normalize';
 
 // create variables
 $text: #292929;
-$main: #A088EB;
+$main: #7458c8;
 $accent: #898596;
 $light: #88A4EB;
 $green: #C4EB88;
 $yellow: #EBE288;
-$alert: rgb(160, 60, 60);
-
-$border: 1px solid $main;
-$shadow: .3em .3em .5em $accent;
 
 // create mixins
-
+@mixin border {
+    border: 1px solid black;
+}
 
 @import 'atoms';
 @import 'molecules';
