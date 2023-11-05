@@ -56,14 +56,17 @@ blockquote {
 #menu.open::before {
 	content: "✕";
 }
+.navigation {
+    background-color: $main;
+}
 .navigation li {
 	display: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .navigation li a {
 	display: block;
     text-decoration: none;
-	padding: 1rem;
+	padding: .7rem;
 	text-align: center;
     border: $border;
     border-radius: 1rem;
@@ -90,11 +93,12 @@ blockquote {
         display: block;
     } 
     .navigation li a {
-        color: $text;
+        color: white;
         font-size: .85rem;
+        border: none;
     }
     .navigation li a:hover {
-        color: $yellow;
+        color: $light;
         background-color: $main;
     }
 }
@@ -158,5 +162,4 @@ input[type=submit] {
 }
 #homer {
     padding: 3rem;
-    background-color: rgba(105, 71, 126, 0.1);
 }

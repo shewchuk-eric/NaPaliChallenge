@@ -13,16 +13,15 @@
 
 // create variables
 $text: #292929;
-$main: #7458c8;
-$accent: #898596;
+$main: #493487;
+$accent: #878199;
 $light: #88A4EB;
 $green: #C4EB88;
 $yellow: #EBE288;
+$alert: rgb(119, 24, 24);
 
-// create mixins
-@mixin border {
-    border: 1px solid black;
-}
+$border: 1px solid black;
+$shadow: 4px 4px 4px $accent;
 
 @import 'atoms';
 @import 'molecules';
