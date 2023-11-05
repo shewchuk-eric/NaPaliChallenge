@@ -13,9 +13,9 @@
 <p id='homer'>The Na Pali Challenge is a world-class outrigger canoe race that brings top paddling athletes to Kauai from far-flung locations.  It is an opportunity for wahine and kane to come together and race 37 miles down the stunning Na Pali Coast. Each team consists of 6 wahine and 6 kane. The two teams take alternating turns in the canoe, making water changes every 30 minutes.</p>
 
 <section id="lightbox">
-      <img src="images/NaPali_610.webp" height="366" width="550">
-      <img src="images/NaPali_640.webp" height="366" width="550">
-      <img src="images/NaPali_666.webp" height="366" width="550">
+      <img src="images/NaPali_610.webp" height="366" width="550" alt="image of canoe race">
+      <img src="images/NaPali_640.webp" height="366" width="550" alt="image of canoe race">
+      <img src="images/NaPali_666.webp" height="366" width="550" alt="image of canoe race">
 </section>
 </section>
 <?php include_once 'footer.php'; ?>
