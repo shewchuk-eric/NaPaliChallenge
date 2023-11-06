@@ -1,11 +1,17 @@
 <?php
 
-function validateContactForm() {
-    
+// USE BUILT-IN FUNCTION TO TEST FOR VALID EMAIL STRUCTURE
+function checkEmail($email) {
+    $valEmail = filter_var($email, FILTER_VALIDATE_EMAIL);
+    return $valEmail;
 }
 
+// SEND THE USER MESSAGE FROM CONTACT FORM VIA EMAIL
 function sendEmail($fname, $lname, $email, $sentmssg) {
-
+    $address = 'temeculastoneworks@msn.com';
+    $subj = "Message from $fname $lname";
+    $text = "$email\n$sentmssg";
+    mail($address,$subj,$text);
 }
 
 function selectHero($page, $alt, $width, $height) {
