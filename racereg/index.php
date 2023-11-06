@@ -40,6 +40,8 @@ $action = filter_input(INPUT_POST, 'action');
         $email = trim(filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL));
         $sentmssg = trim(filter_input(INPUT_POST, 'sentmssg', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
 
+        // $email = checkEmail($email); // validate email structure
+
         if(empty($fname) || empty($lname) || empty($email) || empty($sentmssg)) { // check for any empty lines in form
             $message = "<p>Please provide information for all empty form fields.</p>";
             include 'views/contact-form.php'; // empty field is found - show error message
