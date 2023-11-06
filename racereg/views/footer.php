@@ -4,5 +4,6 @@
 
         </footer>
         <script src="scripts/behaviors.js"></script>
+        <?php if($pageName == "gal") {echo $show;} ?>
     </body>
 </html>

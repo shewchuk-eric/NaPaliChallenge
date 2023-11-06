@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Eric Shewchuk">
-    <meta name="description" content="The Na Pali Challenge is a world-class outrigger canoe race that spans 37 miles of breathtakingly beautiful coastline.">
+    <meta name="description" content="<?php echo $description; ?>">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <title><?php echo $pageTitle; ?></title>
     <link rel="stylesheet" href="css/styles.css">

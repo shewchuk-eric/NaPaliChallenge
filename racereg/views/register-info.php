@@ -1,5 +1,6 @@
 <?php $pageTitle = "How To Register For The Na Pali Challenge";
       $pageName = 'reg';
+      $description = "Find all the information you need in order to register to participate in the Na Pali Challenge outrigger race.";
       $alt = 'image of unlimited class race starting';
       $hero = selectHero($pageName, $alt, 1920, 280);
       include_once 'views/header.php'; ?>

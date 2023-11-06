@@ -1,5 +1,6 @@
 <?php $pageTitle = "The Na Pali Challenge Outrigger Canoe Race || Home";
       $pageName = 'home';
+      $description = "The Na Pali Challenge is a world-class outrigger canoe race that spans 37 miles of breathtakingly beautiful coastline.";
       $alt = 'image of unlimited class race starting';
       $hero = selectHero($pageName, $alt, 1920, 513);
       include_once 'views/header.php'; ?>

@@ -1,5 +1,6 @@
 <?php $pageTitle = "Contact Support At The Na Pali Challenge || Contact Us";
       $pageName = 'contact';
+      $description = "Use the form on this view to get in touch with the Na Pali Challenge official race secretary.";
       $alt = 'image of unlimited class race starting';
       $hero = selectHero($pageName, $alt, 1920, 280);
       include_once 'views/header.php'; ?>

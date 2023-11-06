@@ -1,5 +1,6 @@
 <?php $pageTitle = "Get All The Documents You'll Need For Participation || Documents";
       $pageName = 'docs';
+      $description = "This view has a list of documents and links that are needed for participation in the Na Pali Challenge.";
       $alt = 'image of unlimited class canoes racing outside Hanalei';
       $hero = selectHero($pageName, $alt, 1920, 280);
       include_once 'views/header.php'; ?>

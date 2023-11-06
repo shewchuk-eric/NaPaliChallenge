@@ -1,5 +1,6 @@
 <?php $pageTitle = "Details About Race Schedule And Logistics || Race Information";
       $pageName = 'info';
+      $description = "Discover all the important details about the Na Pali Challenge - Entry fee, transportation, times and locations, etc.";
       $alt = 'image of canoes and competitors before race';
       $hero = selectHero($pageName, $alt, 1920, 280);
       include_once 'views/header.php'; ?>
@@ -56,8 +57,8 @@
     </ol>
     <h3><a href="https://www.webscorer.com/racedetails?raceid=324341" target="_blank">2023 RACE RESULTS</a></h3>
     <h3><a href="https://www.webscorer.com/race?raceid=286316" target="_blank">2022 RACE RESULTS</a></h3>
-    <p>*Any of this information is subject to change without notice. The latest information will be available on koapaddler.org. Contact napalichallenge@gmail.com with any questions. Our registration team will get back to you as soon as possible.</p>
+    <p>*Any of this information is subject to change without notice. The latest information will be available on this site so check back as needed. Please use the <a href="index.php?action=contact">CONTACT</a> form if you have any questions. Our registration team will get back to you as soon as possible.</p>
 
 
-<section id='mainContent'>
+    </section>
 <?php include_once 'footer.php'; ?>  <!-- 'footer.php' has the closing </body> element -->

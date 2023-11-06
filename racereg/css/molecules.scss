@@ -53,3 +53,15 @@ footer {
         margin-top: 2rem;
     }
 }
+#video {
+    margin: 0 auto 3rem auto;
+    max-width: 1000px;
+    height: auto;
+    & iframe {
+        box-shadow: $shadow;
+        aspect-ratio: 16/9;
+    }
+}
+.mySlides {
+    box-shadow: $shadow;
+}
