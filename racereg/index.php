@@ -1,6 +1,6 @@
 <?php // This is the main views controller
 
-require_once 'library/connections-local.php'; // bring in DB connections ability
+// require_once 'library/connections-local.php'; // bring in DB connections ability - not currently in use
 require_once 'library/functions.php'; // contains data validation functions
 
 

@@ -1,8 +1,8 @@
 <?php $pageTitle = "Details About Race Schedule And Logistics || Race Information";
       $pageName = 'info';
       $description = "Discover all the important details about the Na Pali Challenge - Entry fee, transportation, times and locations, etc.";
-      $alt = 'image of canoes and competitors before race';
-      $hero = selectHero($pageName, $alt, 1920, 280);
+      $alt = 'Canoes and competitors before race';
+      $hero = selectHero($pageName, $alt);
       include_once 'views/header.php'; ?>
 
 <section id='mainContent'>

@@ -1,8 +1,8 @@
 <?php $pageTitle = "Get All The Documents You'll Need For Participation || Documents";
       $pageName = 'docs';
       $description = "This view has a list of documents and links that are needed for participation in the Na Pali Challenge.";
-      $alt = 'image of unlimited class canoes racing outside Hanalei';
-      $hero = selectHero($pageName, $alt, 1920, 280);
+      $alt = 'Unlimited class canoes racing outside Hanalei';
+      $hero = selectHero($pageName, $alt);
       include_once 'views/header.php'; ?>
 
 <section id='mainContent'>
@@ -16,7 +16,7 @@
 
     <h3>Shipping Form</h3>
     <p>Shows how to complete the shipping form to send your canoe to Kauai.<br>
-        <img src="images/shipping-form.png" width="600" height="358" alt="image of bill of lading">
+        <img src="images/shipping-form.png" width="600" height="358" alt="bill of lading example">
         </p>
 
 

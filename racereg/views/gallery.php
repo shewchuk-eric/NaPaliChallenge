@@ -2,7 +2,7 @@
       $pageName = 'gal';
       $description = "Visit this page to see video and a photo slide-show from past races.";
       $alt = 'image of unlimited class race starting';
-      $hero = selectHero($pageName, $alt, 1920, 280);
+      $hero = selectHero($pageName, $alt);
       include_once 'views/header.php'; ?>
 
 <section id='mainContent'>

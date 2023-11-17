@@ -23,7 +23,6 @@ $alert: rgb(119, 24, 24);
 $border: 1px solid black;
 $shadow: 4px 4px 4px $accent;
 
-@import 'atoms';
-@import 'molecules';
-@import 'organisms';
-@import 'template';
+@import 'global';
+@import 'navigation';
+@import 'specialty';

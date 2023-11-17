@@ -14,11 +14,11 @@ function sendEmail($fname, $lname, $email, $sentmssg) {
     mail($address,$subj,$text);
 }
 
-function selectHero($page, $alt, $width, $height) {
+function selectHero($page, $alt) {
     $hero = "<picture>";
     $hero .= "<source srcset='images/$page-hero-small.webp' media='(max-width: 500px)'>";
     $hero .= "<source srcset='images/$page-hero-medium.webp' media='(max-width: 1000px)'>";
-    $hero .= "<img src='images/$page-hero-fullsize.webp' alt='$alt' width='$width' height='$height' class='hero'>";
+    $hero .= "<img src='images/$page-hero-fullsize.webp' alt='$alt' width='1920' height='513' class='hero'>";
     $hero .= "</picture>";
     return $hero;
 }
